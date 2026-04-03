@@ -35,56 +35,95 @@ Then edit your copied Python file to:
 
 import logging
 from typing import Any
-
 import polars as pl
+from deep_translator import GoogleTranslator  # New import
 
 # ============================================================
 # Section 2. Define Run Transform Function
 # ============================================================
 
-
 def run_transform(
     json_data: list[dict[str, Any]],
     LOG: logging.Logger,
 ) -> pl.DataFrame:
-    """Transform JSON into a structured DataFrame.
+    # ... (Keep your existing Setup and Logging) ...
 
-    Args:
-        json_data (list[dict[str, Any]]): Validated JSON data.
-        LOG (logging.Logger): The logger instance.
-
-    Returns:
-        pl.DataFrame: The transformed dataset.
-    """
-    LOG.info("========================")
-    LOG.info("STAGE 03: TRANSFORM starting...")
-    LOG.info("========================")
-
+    # --- STEP A: NORMALIZE RECORDS ---
     records: list[dict[str, Any]] = []
-
     for record in json_data:
-        records.append(
-            {
-                "user_id": record["userId"],
-                "post_id": record["id"],
-                "title": record["title"],
-                "body": record["body"],
-            }
-        )
+        records.append({
+            "user_id": record["userId"],
+            "post_id": record["id"],
+            "title": record["title"],
+            "body": record["body"],
+        })
 
     df: pl.DataFrame = pl.DataFrame(records)
 
-    # Derived fields
-    df = df.with_columns(
-        [
-            pl.col("title").str.len_chars().alias("title_length"),
-            pl.col("body").str.len_chars().alias("body_length"),
-        ]
-    )
+    # --- STEP B: TRANSLATION (The New Logic) ---
+    LOG.info("Starting translation...")
 
-    LOG.info("Transformation complete.")
-    LOG.info(f"DataFrame preview:\n{df.head()}")
-    LOG.info("Sink: Polars DataFrame created")
+    # Initialize the translator engine
+    translator = GoogleTranslator(source='auto', target='en') # Target language: English
 
-    # Return the transformed DataFrame for use in the next stage.
+    # We use map_elements to apply the translator across the column
+    # Use 'return_dtype' so Polars knows it's getting back strings (Utf8)
+    df = df.with_columns([
+        pl.col("title").map_elements(lambda x: translator.translate(x), return_dtype=pl.Utf8).alias("title_translated"),
+        pl.col("body").map_elements(lambda x: translator.translate(x), return_dtype=pl.Utf8).alias("body_translated")
+    ])
+
+    # --- STEP C: DERIVED FIELDS ---
+    df = df.with_columns([
+        pl.col("title").str.len_chars().alias("title_length"),
+        pl.col("body").str.len_chars().alias("body_length"),
+    ])
+
+    LOG.info("Transformation and Translation complete.")
     return df
+
+# def run_transform(
+#     json_data: list[dict[str, Any]],
+#     LOG: logging.Logger,
+# ) -> pl.DataFrame:
+#     """Transform JSON into a structured DataFrame.
+
+#     Args:
+#         json_data (list[dict[str, Any]]): Validated JSON data.
+#         LOG (logging.Logger): The logger instance.
+
+#     Returns:
+#         pl.DataFrame: The transformed dataset.
+#     """
+#     LOG.info("========================")
+#     LOG.info("STAGE 03: TRANSFORM starting...")
+#     LOG.info("========================")
+
+#     records: list[dict[str, Any]] = []
+
+#     for record in json_data:
+#         records.append(
+#             {
+#                 "user_id": record["userId"],
+#                 "post_id": record["id"],
+#                 "title": record["title"],
+#                 "body": record["body"],
+#             }
+#         )
+
+#     df: pl.DataFrame = pl.DataFrame(records)
+
+#     # Derived fields
+#     df = df.with_columns(
+#         [
+#             pl.col("title").str.len_chars().alias("title_length"),
+#             pl.col("body").str.len_chars().alias("body_length"),
+#         ]
+#     )
+
+#     LOG.info("Transformation complete.")
+#     LOG.info(f"DataFrame preview:\n{df.head()}")
+#     LOG.info("Sink: Polars DataFrame created")
+
+#     # Return the transformed DataFrame for use in the next stage.
+#     return df

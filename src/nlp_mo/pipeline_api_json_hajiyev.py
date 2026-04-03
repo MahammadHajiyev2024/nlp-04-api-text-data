@@ -39,7 +39,7 @@ import logging
 
 from datafun_toolkit.logger import get_logger, log_header, log_path
 
-from nlp.config_hajiyev import (
+from nlp_mo.config_hajiyev import (
     API_URL,
     DATA_PATH,
     HTTP_REQUEST_HEADERS,

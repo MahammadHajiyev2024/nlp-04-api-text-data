@@ -1,401 +1,704 @@
-user_id,post_id,title,body,title_length,body_length
+user_id,post_id,title,body,title_translated,body_translated,title_length,body_length
 1,1,sunt aut facere repellat provident occaecati excepturi optio reprehenderit,"quia et suscipit
 suscipit recusandae consequuntur expedita et cum
 reprehenderit molestiae ut ut quas totam
-nostrum rerum est autem sunt rem eveniet architecto",74,158
+nostrum rerum est autem sunt rem eveniet architecto","because it also receives
+it takes the consequences of refusing to be expedient and when
+He blames the whole trouble for what it is
+Ours is a matter of fact, but it will happen to the architect","because it also receives
+it takes the consequences of refusing to be expedient and when
+He blames the whole trouble for what it is
+Ours is a matter of fact, but it will happen to the architect",74,158
 1,2,qui est esse,"est rerum tempore vitae
 sequi sint nihil reprehenderit dolor beatae ea dolores neque
 fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
-qui aperiam non debitis possimus qui neque nisi nulla",12,206
+qui aperiam non debitis possimus qui neque nisi nulla",who is to be,"it is the time of life
+to follow them, nothing blames the pain of the blessed ones nor those pains
+let him avoid flattery with pleasure, or no trouble so as to be rejected
+those who do not have to open, we cannot, but those who do not have nothing",12,206
 1,3,ea molestias quasi exercitationem repellat qui ipsa sit aut,"et iusto sed quo iure
 voluptatem occaecati omnis eligendi aut ad
 voluptatem doloribus vel accusantium quis pariatur
-molestiae porro eius odio et labore et velit aut",59,164
+molestiae porro eius odio et labore et velit aut",she repulses those troubles as if she were an exercise,"and by what right
+the pleasure of being blinded by every choice or ad
+who is spared the pleasure of pains or accusers
+He hates his trouble and toils, whether he likes or not",59,164
 1,4,eum et est occaecati,"ullam et saepe reiciendis voluptatem adipisci
 sit amet autem assumenda provident rerum culpa
 quis hic commodi nesciunt rem tenetur doloremque ipsam iure
-quis sunt voluptatem rerum illo velit",20,190
+quis sunt voluptatem rerum illo velit",and he is blinded,"get pleasure from rejecting any and often
+but it is important to assume that they provide the fault of the things
+those who do not know the benefits here are bound by the law and the pain itself
+Who wants the pleasure of those things?",20,190
 1,5,nesciunt quas odio,"repudiandae veniam quaerat sunt sed
 alias aut fugiat sit autem sed est
 voluptatem omnis possimus esse voluptatibus quis
-est aut tenetur dolor neque",18,147
+est aut tenetur dolor neque",they do not know what they hate,"but they are to seek forgiveness for the divorce
+he may flee otherwise, but he is
+We can all be pleasures
+pain is either held or not",18,147
 1,6,dolorem eum magni eos aperiam quia,"ut aspernatur corporis harum nihil quis provident sequi
 mollitia nobis aliquid molestiae
 perspiciatis et ea nemo ab reprehenderit accusantium quas
-voluptate dolores velit et doloremque molestiae",34,194
+voluptate dolores velit et doloremque molestiae",I will open them because the pain is great,"so that the body of these is asperated, no one provides to follow
+flexibility is a bit of a problem for us
+see, and no one will criticize those who accuse
+He likes pains with pleasure and pain and discomfort",34,194
 1,7,magnam facilis autem,"dolore placeat quibusdam ea quo vitae
 magni quis enim qui quis quo nemo aut saepe
 quidem repellat excepturi ut quia
-sunt ut sequi eos ea sed quas",20,145
+sunt ut sequi eos ea sed quas",but a great one is easy,"with pain may please some the things of life
+for the great who who who where no one or often
+Indeed, it repels the exception that because
+but they are to follow them",20,145
 1,8,dolorem dolore est ipsam,"dignissimos aperiam dolorem qui eum
 facilis quibusdam animi sint suscipit qui sint possimus cum
 quaerat magni maiores excepturi
-ipsam ut commodi dolor voluptatum modi aut vitae",24,176
+ipsam ut commodi dolor voluptatum modi aut vitae",pain is pain itself,"I will open the pain that deserves him
+let some of them be of easy mind and take up who they are with us
+let him seek to receive the great elders
+itself as the comfortable pain of the pleasures of fashion or life",24,176
 1,9,nesciunt iure omnis dolorem tempora et accusantium,"consectetur animi nesciunt iure dolore
 enim quia ad
 veniam autem ut quam aut nobis
-et est aut quod aut provident voluptas autem voluptas",50,136
+et est aut quod aut provident voluptas autem voluptas",they do not know the right of all the pain of the times and accusers,"they do not know the right of suffering
+for because ad
+but I will come as it is for us
+and it is either that or they provide pleasure, and pleasure is pleasure",50,136
 1,10,optio molestias id quia eum,"quo et expedita modi cum officia vel magni
 doloribus qui repudiandae
 vero nisi sit
-quos veniam quod sed accusamus veritatis error",27,129
+quos veniam quod sed accusamus veritatis error",the choice of trouble because him,"in which and expedient manner with offices or great ones
+the pains of being rejected
+unless it be
+whom I forgive because we accuse the error of the truth",27,129
 2,11,et ea vero quia laudantium autem,"delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus
 accusamus in eum beatae sit
 vel qui neque voluptates ut commodi qui incidunt
-ut animi commodi",32,169
+ut animi commodi",and indeed those who praise,"the choice of rejecting the dark trouble will not be the least of those who enjoy pleasures
+we accuse him of being blessed
+or those who neither enjoy pleasures nor benefits that occur
+as the convenience of the mind",32,169
 2,12,in quibusdam tempore odit est dolorem,"itaque id aut magnam
 praesentium quia et ea odit et ea voluptas et
 sapiente quia nihil amet occaecati quia id voluptatem
-incidunt ea est distinctio odio",37,152
+incidunt ea est distinctio odio",in some times he hates the pain,"therefore it is either great
+of the present because he hates both that and that pleasure and
+the wise because nothing will be blinded because it is pleasure
+they fall, that is the distinction of hate",37,152
 2,13,dolorum ut in voluptas mollitia et saepe quo animi,"aut dicta possimus sint mollitia voluptas commodi quo doloremque
 iste corrupti reiciendis voluptatem eius rerum
 sit cumque quod eligendi laborum minima
-perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",50,225
+perferendis recusandae assumenda consectetur porro architecto ipsum ipsam","the flexibility of pains into pleasure, and often with which of the mind","or we may say that softness is the pleasure of the ease with which the pain is
+he was corrupted by rejecting the pleasure of his things
+no matter how small the trouble of choosing
+by refusing to bear it, the architect himself will be pursued",50,225
 2,14,voluptatem eligendi optio,"fuga et accusamus dolorum perferendis illo voluptas
 non doloremque neque facere
 ad qui dolorum molestiae beatae
-sed aut voluptas totam sit illum",25,144
+sed aut voluptas totam sit illum",the pleasure of choosing an option,"flight, and we accuse him of taking pleasure in suffering
+neither pain nor doing
+to whom the troubles of pain are blessed
+but the pleasure may be all that",25,144
 2,15,eveniet quod temporibus,"reprehenderit quos placeat
 velit minima officia dolores impedit repudiandae molestiae nam
 voluptas recusandae quis delectus
-officiis harum fugiat vitae",23,151
+officiis harum fugiat vitae",It will happen that times,"He will criticize whom he pleases
+for he wants the smallest services to prevent the pains of rejection
+the pleasure of refusing who was chosen
+let him flee from the duties of his life",23,151
 2,16,sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio,"suscipit nam nisi quo aperiam aut
 asperiores eos fugit maiores voluptatibus quia
 voluptatem quis ullam qui in alias quia est
-consequatur magni mollitia accusamus ea nisi voluptate dicta",67,185
+consequatur magni mollitia accusamus ea nisi voluptate dicta",let them take up and understand the pains of the very laborious hatred of things,"for it takes place unless I open it or
+because he flees the rougher ones from greater pleasures
+any pleasure which is in other things because it is
+We accuse them of great flexibility, unless it is said with pleasure",67,185
 2,17,fugit voluptas sed molestias voluptatem provident,"eos voluptas et aut odit natus earum
 aspernatur fuga molestiae ullam
 deserunt ratione qui eos
-qui nihil ratione nemo velit ut aut id quo",49,136
+qui nihil ratione nemo velit ut aut id quo","pleasure flees, but troubles provide pleasure","their birth delights and hates them
+the flight of any trouble is spurned
+for the reason that they left them
+which no one wills for any reason as or that which",49,136
 2,18,voluptate et itaque vero tempora molestiae,"eveniet quo quis
 laborum totam consequatur non dolor
 ut et est repudiandae
-est voluptatem vel debitis et magnam",42,111
+est voluptatem vel debitis et magnam","pleasure, and therefore times of trouble","it will happen where someone
+the result of all the suffering is not pain
+as it is to be rejected
+it is pleasure or debt and great",42,111
 2,19,adipisci placeat illum aut reiciendis qui,"illum quis cupiditate provident sit magnam
 ea sed aut omnis
 veniam maiores ullam consequatur atque
-adipisci quo iste expedita sit quos voluptas",41,143
+adipisci quo iste expedita sit quos voluptas",it is acceptable to receive him or to reject him,"let him whom they provide with desire be great
+but that or all
+I apologize for any consequences
+obtain by which this is expedient those who pleasure",41,143
 2,20,doloribus ad provident suscipit at,"qui consequuntur ducimus possimus quisquam amet similique
 suscipit porro ipsam amet
 eos veritatis officiis exercitationem vel fugit aut necessitatibus totam
-omnis rerum consequatur expedita quidem cumque explicabo",34,213
+omnis rerum consequatur expedita quidem cumque explicabo",to take pains to provide,"those who follow, we can lead anyone who likes it
+He then takes care of himself
+he either flees from training them in the duties of the truth, or is entirely out of necessity
+I will explain all the consequences of all things in a convenient way",34,213
 3,21,asperiores ea ipsam voluptatibus modi minima quia sint,"repellat aliquid praesentium dolorem quo
 sed totam minus non itaque
 nihil labore molestiae sunt dolor eveniet hic recusandae veniam
-tempora et tenetur expedita sunt",54,164
+tempora et tenetur expedita sunt","because they are of the smallest kind, they are more severe than pleasures","something that repels the pain of the present
+but not all the less
+there is no trouble, there is no trouble, the pain will come here;
+The times and conditions are expedient",54,164
 3,22,dolor sint quo a velit explicabo quia nam,"eos qui et ipsum ipsam suscipit aut
 sed omnis non odio
 expedita earum mollitia molestiae aut atque rem suscipit
-nam impedit esse",41,128
+nam impedit esse",I will explain why they are suffering because for,"those who receive him and himself, or
+but not all hate
+Their easy resilience is a source of trouble or trouble
+for it prevents him from being",41,128
 3,23,maxime id vitae nihil numquam,"veritatis unde neque eligendi
 quae quod architecto quo neque vitae
 est illo sit tempora doloremque fugit quod
-et et vel beatae sequi ullam sed tenetur perspiciatis",29,163
+et et vel beatae sequi ullam sed tenetur perspiciatis",most of all that life is never anything,"truth, whence neither to be chosen
+what architect what not life
+it is to him that the times and the pain escape that
+and even the blessed to follow any one but it is bound to be discerned",29,163
 3,24,autem hic labore sunt dolores incidunt,"enim et ex nulla
 omnis voluptas quia qui
 voluptatem consequatur numquam aliquam sunt
-totam recusandae id dignissimos aut sed asperiores deserunt",38,144
+totam recusandae id dignissimos aut sed asperiores deserunt",but here pains are caused by labor,"for and from nothing
+all pleasure because who
+There are never any pleasures to be had
+they leave it to the most worthy, or the most severe, to refuse the whole",38,144
 3,25,rem alias distinctio quo quis,"ullam consequatur ut
 omnis quis sit vel consequuntur
 ipsa eligendi ipsum molestiae et omnis error nostrum
-molestiae illo tempore quia et distinctio",29,147
+molestiae illo tempore quia et distinctio",another thing is the distinction by which one,"to have any consequence
+whoever he is, or the result
+the choice itself is the trouble and all our error
+trouble at that time because and distinction",29,147
 3,26,est et quae odit qui non,"similique esse doloribus nihil accusamus
 omnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus
 perspiciatis cum ut laudantium
-omnis aut molestiae vel vero",24,174
+omnis aut molestiae vel vero",there is also what he hates who does not,"and we do not accuse them of being similar to pains
+He will blame all the pain that flight will result in
+see when they praise
+everything is either trouble or true",24,174
 3,27,quasi id et eos tenetur aut quo autem,"eum sed dolores ipsam sint possimus debitis occaecati
 debitis qui qui et
 ut placeat enim earum aut odit facilis
-consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur",37,190
+consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur","as if that and them were bound, or by whom","but we may be blinded by our debts, let the sorrows be the very thing
+you owe who who and
+for it is easy to please or hate them
+He takes the consequences of the needs of things, but the inventor of the times succeeds",37,190
 3,28,delectus ullam et corporis nulla voluptas sequi,"non et quaerat ex quae ad maiores
 maiores recusandae totam aut blanditiis mollitia quas illo
 ut voluptatibus voluptatem
-similique nostrum eum",47,141
+similique nostrum eum",chosen to follow any and no pleasure of the body,"nor should he inquire from what to his elders
+the greater refusal of the whole, or the softness of flattery which he
+as pleasures for pleasures
+and ours like him",47,141
 3,29,iusto eius quod necessitatibus culpa ea,"odit magnam ut saepe sed non qui
 tempora atque nihil
 accusamus illum doloribus illo dolor
-eligendi repudiandae odit magni similique sed cum maiores",39,147
+eligendi repudiandae odit magni similique sed cum maiores",just because of the necessity of the fault,"he hates the great as often but not who
+times and nothing
+we accuse him of pains of that pain
+He hates choosing to reject the great and the like but with the elders",39,147
 3,30,a quo magni similique perferendis,"alias dolor cumque
 impedit blanditiis non eveniet odio maxime
 blanditiis amet eius quis tempora quia autem rem
-a provident perspiciatis quia",33,140
+a provident perspiciatis quia",from which the great and the like are borne,"otherwise pain and suffering
+he hinders flattery, but hate will not happen
+His flattery is a matter of which times it is
+a they provide insight because",33,140
 4,31,ullam ut quidem id aut vel consequuntur,"debitis eius sed quibusdam non quis consectetur vitae
 impedit ut qui consequatur sed aut in
 quidem sit nostrum et maiores adipisci atque
-quaerat voluptatem adipisci repudiandae",39,176
+quaerat voluptatem adipisci repudiandae",any such thing as that either or both can be achieved,"his debts, but for some, no one can follow his life
+prevents that which results but either in
+Indeed, it is ours to get the elders and
+let him seek the pleasure of attaining repudiation",39,176
 4,32,doloremque illum aliquid sunt,"deserunt eos nobis asperiores et hic
 est debitis repellat molestiae optio
 nihil ratione ut eos beatae quibusdam distinctio maiores
-earum voluptates et aut adipisci ea maiores voluptas maxime",29,190
+earum voluptates et aut adipisci ea maiores voluptas maxime",and that pain is something,"they leave them rougher than us and here
+It is a debt relief option
+there is no reason to distinguish them from some of the blessed ones
+their pleasures, or obtain those greater pleasures above all",29,190
 4,33,qui explicabo molestiae dolorem,"rerum ut et numquam laborum odit est sit
 id qui sint in
 quasi tenetur tempore aperiam et quaerat qui in
-rerum officiis sequi cumque quod",31,136
+rerum officiis sequi cumque quod",who will explain the pain of the trouble,"He hates things like that and never has to work
+that which they are in
+as if he were held in time to open it and ask who is in
+to follow the duties of affairs and whatever",31,136
 4,34,magnam ut rerum iure,"ea velit perferendis earum ut voluptatem voluptate itaque iusto
 totam pariatur in
 nemo voluptatem voluptatem autem magni tempora minima in
-est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis",20,212
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis",as great as the law of things,"He wants to endure them as pleasure with pleasure
+the whole is borne in
+no one has pleasure in pleasure, but great times have little in them
+it is a distinction which we charge to assume the most worthy responsibilities we do not know",20,212
 4,35,id nihil consequatur molestias animi provident,"nisi error delectus possimus ut eligendi vitae
 placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
 modi ducimus quo illum voluptas eligendi
-et nobis quia fugit",46,176
+et nobis quia fugit",they provide for mental troubles of no consequence,"unless we have chosen error in order to choose life
+let them be pleased by the desire of these, he will easily criticize the pleasure of the blessed
+We lead the way in which he chooses the pleasure
+and to us because he fled",46,176
 4,36,fuga nam accusamus voluptas reiciendis itaque,"ad mollitia et omnis minus architecto odit
 voluptas doloremque maxime aut non ipsa qui alias veniam
 blanditiis culpa aut quia nihil cumque facere et occaecati
-qui aspernatur quia eaque ut aperiam inventore",45,205
+qui aspernatur quia eaque ut aperiam inventore",for we therefore accuse the flight of rejecting pleasure,"to flexibility and everyone hates the less architect
+the pleasure and the pain, or not the same, which will come elsewhere
+the fault of flattery, or because of doing nothing at all and being blinded
+who is dismayed because he finds it so that I can open it",45,205
 4,37,provident vel ut sit ratione est,"debitis et eaque non officia sed nesciunt pariatur vel
 voluptatem iste vero et ea
 numquam aut expedita ipsum nulla in
-voluptates omnis consequatur aut enim officiis in quam qui",32,176
+voluptates omnis consequatur aut enim officiis in quam qui",they provide or that it is reasonable,"debts and those not responsibilities but do not know how to bear or
+he and she, indeed, have pleasure
+never or expedient very no in
+Every pleasure is the consequence, or indeed of the duties in which one is engaged",32,176
 4,38,explicabo et eos deleniti nostrum ab id repellendus,"animi esse sit aut sit nesciunt assumenda eum voluptas
 quia voluptatibus provident quia necessitatibus ea
 rerum repudiandae quia voluptatem delectus fugit aut id quia
-ratione optio eos iusto veniam iure",51,202
+ratione optio eos iusto veniam iure",I will explain and they will be repelled by our gentleness from it,"they do not know whether it is of the mind or whether it is a pleasure to assume it
+because they provide for pleasures because they provide for necessities
+of rejecting things because the chosen one flees from pleasure, or because
+the reason for the choice is to let them just come right",51,202
 4,39,eos dolorem iste accusantium est eaque quam,"corporis rerum ducimus vel eum accusantium
 maxime aspernatur a porro possimus iste omnis
 est in deleniti asperiores fuga aut
-voluptas sapiente vel dolore minus voluptatem incidunt ex",43,182
+voluptas sapiente vel dolore minus voluptatem incidunt ex","This is the pain of those who accuse them, and that which","we bring the things of the body or those who accuse him
+This is the most difficult thing we can do
+it is in the gentleness of the rougher the flight, or
+pleasure with wisdom or less pleasure with pain",43,182
 4,40,enim quo cumque,"ut voluptatum aliquid illo tenetur nemo sequi quo facilis
 ipsum rem optio mollitia quas
 voluptatem eum voluptas qui
-unde omnis voluptatem iure quasi maxime voluptas nam",15,168
+unde omnis voluptatem iure quasi maxime voluptas nam",for in any case,"so that some pleasures are bound to him, and no one can easily follow them
+the very thing that the flexibility of the choice
+pleasure him pleasure who
+whence every pleasure is rightly regarded as the greatest pleasure",15,168
 5,41,non est facere,"molestias id nostrum
 excepturi molestiae dolore omnis repellendus quaerat saepe
 consectetur iste quaerat tenetur asperiores accusamus ex ut
-nam quidem est ducimus sunt debitis saepe",14,181
+nam quidem est ducimus sunt debitis saepe",It is not to do,"that's our trouble
+He often seeks to be repelled by the pain of trouble
+he will be pursued, he will be held, we will accuse him more harshly than that
+for it is true that we are often in debt",14,181
 5,42,commodi ullam sint et excepturi error explicabo praesentium voluptas,"odio fugit voluptatum ducimus earum autem est incidunt voluptatem
 odit reiciendis aliquam sunt sequi nulla dolorem
 non facere repellendus voluptates quia
-ratione harum vitae ut",68,176
+ratione harum vitae ut","I will explain the pleasure of the present if they are of any benefit, and I will accept the error","we run away from pleasures with hatred;
+he hates rejection, there are no pain to follow
+not to make repulsed pleasures because
+for the reason of these lives as",68,176
 5,43,eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis,"similique fugit est
 illum et dolorum harum et voluptate eaque quidem
 exercitationem quos nam commodi possimus cum odio nihil nulla
-dolorum exercitationem magnam ex et a et distinctio debitis",78,190
+dolorum exercitationem magnam ex et a et distinctio debitis",the result of our choice is to obtain the present and be happy to bear it,"and so he fled
+he and these pains and pleasure and that indeed
+for the exercise of which we can benefit with no hatred whatsoever
+you must exercise great pains from and from and distinction",78,190
 5,44,optio dolor molestias sit,"temporibus est consectetur dolore
 et libero debitis vel velit laboriosam quia
 ipsum quibusdam qui itaque fuga rem aut
-ea et iure quam sed maxime ut distinctio quae",25,163
+ea et iure quam sed maxime ut distinctio quae",the choice is pain,"at times it is followed by pain
+and you must be free or willing to labor because
+to some who therefore flee the matter or
+and by law as much as possible, as a distinction which",25,163
 5,45,ut numquam possimus omnis eius suscipit laudantium iure,"est natus reiciendis nihil possimus aut provident
 ex et dolor
 repellat pariatur est
-nobis rerum repellendus dolorem autem",55,121
+nobis rerum repellendus dolorem autem",that we may never be able to receive all his praises by right,"He was born by rejecting nothing we can do or provide
+from and pain
+it repels is to be bred
+but the pain of things must be repelled by us",55,121
 5,46,aut quo modi neque nostrum ducimus,"voluptatem quisquam iste
 voluptatibus natus officiis facilis dolorem
 quis quas ipsam
-vel et voluptatum in aliquid",34,113
+vel et voluptatum in aliquid",or in what manner we lead neither of us,"this is the pleasure of anyone
+He was born with pleasures, and with easy duties he suffered pain
+who she herself
+or even pleasures in something",34,113
 5,47,quibusdam cumque rem aut deserunt,"voluptatem assumenda ut qui ut cupiditate aut impedit veniam
 occaecati nemo illum voluptatem laudantium
 molestiae beatae rerum ea iure soluta nostrum
-eligendi et voluptate",33,171
+eligendi et voluptate","to some, they either abandon the matter","the pleasure to be assumed, so that those who, like greed, hinder or hinder forgiveness
+no one was blinded by the praise of that pleasure
+the troubles of those blessed things are solved by our right
+choice and pleasure",33,171
 5,48,ut voluptatem illum ea doloribus itaque eos,"voluptates quo voluptatem facilis iure occaecati
 vel assumenda rerum officia et
 illum perspiciatis ab deleniti
-laudantium repellat ad ut et autem reprehenderit",43,159
+laudantium repellat ad ut et autem reprehenderit",so that they may have that pleasure with pains,"the pleasures with which the pleasure of the easy right was darkened
+or to assume the duties of things and
+let him be seen by the gentle
+He repulses those who praise him in order to criticize him",43,159
 5,49,laborum non sunt aut ut assumenda perspiciatis voluptas,"inventore ab sint
 natus fugit id nulla sequi architecto nihil quaerat
 eos tenetur in in eum veritatis non
-quibusdam officiis aspernatur cumque aut commodi aut",55,158
+quibusdam officiis aspernatur cumque aut commodi aut",They are not a burden or a pleasure to be taken for granted,"They are from the inventor
+he was born and fled, and no one wanted to follow the architect
+they are not held in him by the truth
+He is averse to certain offices, whether convenient or not",55,158
 5,50,repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem,"error suscipit maxime adipisci consequuntur recusandae
 voluptas eligendi et est et voluptates
 quia distinctio ab amet quaerat molestiae et vitae
-adipisci impedit sequi nesciunt quis consectetur",79,193
+adipisci impedit sequi nesciunt quis consectetur",Those who refuse to fall into pleasures are to be repelled,"it takes a mistake to get the most consequence of refusing
+the pleasure of choosing is both pleasures
+because distinction from the mainstream seeks trouble and life
+they do not know who will be pursued",79,193
 6,51,soluta aliquam aperiam consequatur illo quis voluptas,"sunt dolores aut doloribus
 dolore doloribus voluptates tempora et
 doloremque et quo
-cum asperiores sit consectetur dolorem",53,122
+cum asperiores sit consectetur dolorem",I will give him some pleasure when he is released,"they are pains or pains
+times of pain and suffering and pleasures
+and pain and where
+when it is more severe, pain follows",53,122
 6,52,qui enim et consequuntur quia animi quis voluptate quibusdam,"iusto est quibusdam fuga quas quaerat molestias
 a enim ut sit accusamus enim
 temporibus iusto accusantium provident architecto
-soluta esse reprehenderit qui laborum",60,164
+soluta esse reprehenderit qui laborum",for those who also succeed because of the pleasure of certain souls,"It is just that some people seek trouble by flight
+for we accuse him to be
+they provide the architect at the regular times of the accusers
+He will blame those who have trouble",60,164
 6,53,ut quo aut ducimus alias,"minima harum praesentium eum rerum illo dolore
 quasi exercitationem rerum nam
 porro quis neque quo
-consequatur minus dolor quidem veritatis sunt non explicabo similique",24,168
+consequatur minus dolor quidem veritatis sunt non explicabo similique",so that we lead others to one place or another,"the smallest of these things present him with that pain
+as the training of things, for
+further, who or where
+I will not explain the consequences of the less pain of the truth, and the like",24,168
 6,54,sit asperiores ipsam eveniet odio non quia,"totam corporis dignissimos
 vitae dolorem ut occaecati accusamus
 ex velit deserunt
-et exercitationem vero incidunt corrupti mollitia",42,131
+et exercitationem vero incidunt corrupti mollitia",it is not because hatred will happen to her that she is harsher,"the whole body's assets
+We blame the pain of life as being blinded
+they leave it because they want to
+and the exercise, in fact, falls on the corrupt flexibility",42,131
 6,55,sit vel voluptatem et non libero,"debitis excepturi ea perferendis harum libero optio
 eos accusamus cum fuga ut sapiente repudiandae
 et ut incidunt omnis molestiae
-nihil ut eum odit",32,147
+nihil ut eum odit",let it be pleasure and not freedom,"you must accept them by carrying them out of their free choice
+We charge them with the flight of rejecting the wise
+and that all trouble should befall them
+nothing to hate him",32,147
 6,56,qui et at rerum necessitatibus,"aut est omnis dolores
 neque rerum quod ea rerum velit pariatur beatae excepturi
 et provident voluptas corrupti
-corporis harum reprehenderit dolores eligendi",30,156
+corporis harum reprehenderit dolores eligendi",who and at the needs of things,"or it is all pains
+nor will he be blessed with things that he wills
+and provide for the pleasure of the corrupt
+He blames the pains of choosing these bodies",30,156
 6,57,sed ab est est,"at pariatur consequuntur earum quidem
 quo est laudantium soluta voluptatem
 qui ullam et est
-et cum voluptas voluptatum repellat est",14,131
+et cum voluptas voluptatum repellat est",but from is is,"but the consequence of them must be borne
+by which the pleasure of the praisers is released
+who is any
+and when pleasure repels pleasures",14,131
 6,58,voluptatum itaque dolores nisi et quasi,"veniam voluptatum quae adipisci id
 et id quia eos ad et dolorem
 aliquam quo nisi sunt eos impedit error
-ad similique veniam",39,123
+ad similique veniam",therefore the pains of the pleasures are only and as it were,"I am sorry for the pleasures that you get
+and that because they are to and pain
+some error hinders them from what they are
+I will come to the like",39,123
 6,59,qui commodi dolor at maiores et quis id accusantium,"perspiciatis et quam ea autem temporibus non voluptatibus qui
 beatae a earum officia nesciunt dolores suscipit voluptas et
 animi doloribus cum rerum quas et magni
-et hic ut ut commodi expedita sunt",51,197
+et hic ut ut commodi expedita sunt",those who benefited from pain and those who blamed it on the elders,"you see, and how those times are not pleasures
+the blessed do not know from their duties the pains and pleasures they receive
+with the pains of the soul with the things which are great
+and here they are arranged as convenient as possible",51,197
 6,60,consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere,"asperiores sunt ab assumenda cumque modi velit
 qui esse omnis
 voluptate et fuga perferendis voluptas
-illo ratione amet aut et omnis",76,131
+illo ratione amet aut et omnis",It will happen that everyone pleases because he criticizes the fact that he flees,"they are more severe from being assumed, in any way
+who is all
+the pleasure of bearing pleasure and flight
+for that reason it is important or all",76,131
 7,61,voluptatem doloribus consectetur est ut ducimus,"ab nemo optio odio
 delectus tenetur corporis similique nobis repellendus rerum omnis facilis
 vero blanditiis debitis in nesciunt doloribus dicta dolores
-magnam minus velit",47,171
+magnam minus velit",pleasure is followed by pain as we lead,"hate from no one's choice
+the elect is bound to the body, and like us is repulsed by every easy thing of things
+but they do not know the pains that are due to flattery
+he wants a great deal less",47,171
 7,62,beatae enim quia vel,"enim aspernatur illo distinctio quae praesentium
 beatae alias amet delectus qui voluptate distinctio
 odit sint accusantium autem omnis
-quo molestiae omnis ea eveniet optio",20,171
+quo molestiae omnis ea eveniet optio",happy because even,"for by that the distinction which is present is spurred
+Blessed are the chosen ones who are distinguished by pleasure
+but everyone hates the accusers
+with which all that choice will result in trouble",20,171
 7,63,voluptas blanditiis repellendus animi ducimus error sapiente et suscipit,"enim adipisci aspernatur nemo
 numquam omnis facere dolorem dolor ex quis temporibus incidunt
 ab delectus culpa quo reprehenderit blanditiis asperiores
-accusantium ut quam in voluptatibus voluptas ipsam dicta",72,207
+accusantium ut quam in voluptatibus voluptas ipsam dicta",The pleasure of being repulsed by the flattery of the mind leads us to the error of the wise and accepts it,"for no one is hindered from obtaining it
+never do all the pain of the pain from which the times fall
+from the fault of the elect, by which he reproaches the harsher flatterers
+of the accusers, as in pleasures, the pleasure itself is said to be",72,207
 7,64,et fugit quas eum in in aperiam quod,"id velit blanditiis
 eum ea voluptatem
 molestiae sint occaecati est eos perspiciatis
-incidunt a error provident eaque aut aut qui",36,128
+incidunt a error provident eaque aut aut qui",and he fled that I would open him up,"he wants to be flattered
+that pleasure
+let the trouble be dark, and see them
+they fall from error and provide for them either or who",36,128
 7,65,consequatur id enim sunt et et,"voluptatibus ex esse
 sint explicabo est aliquid cumque adipisci fuga repellat labore
 molestiae corrupti ex saepe at asperiores et perferendis
-natus id esse incidunt pariatur",30,173
+natus id esse incidunt pariatur",the consequence of that is that they are and and,"from the pleasures of being
+I will explain that it is something that the flight repels with effort to get
+the troubles of corruption are often more severe and tolerable
+born that is to be born",30,173
 7,66,repudiandae ea animi iusto,"officia veritatis tenetur vero qui itaque
 sint non ratione
 sed et ut asperiores iusto eos molestiae nostrum
-veritatis quibusdam et nemo iusto saepe",26,147
+veritatis quibusdam et nemo iusto saepe",to repudiate them with a just mind,"He who therefore is bound to the duties of truth
+they are not rational
+but also to make them more severe just because of our trouble
+the truth to some and no one often",26,147
 7,67,aliquid eos sed fuga est maxime repellendus,"reprehenderit id nostrum
 voluptas doloremque pariatur sint et accusantium quia quod aspernatur
 et fugiat amet
-non sapiente et consequatur necessitatibus molestiae",43,162
+non sapiente et consequatur necessitatibus molestiae",anything but flight is the most repulsive to them,"He will criticize that of us
+Let the pleasure and pain of those who accuse be spared, because that which is asperated
+and let him run away
+not wise, and results in the necessities of trouble",43,162
 7,68,odio quis facere architecto reiciendis optio,"magnam molestiae perferendis quisquam
 qui cum reiciendis
 quaerat animi amet hic inventore
-ea quia deleniti quidem saepe porro velit",44,131
+ea quia deleniti quidem saepe porro velit",I hate to make an architect reject the option,"no one can bear a great deal of trouble
+who with the rejection
+he is looking for the soul of the inventor here
+because indeed he often wants to be softened further",44,131
 7,69,fugiat quod pariatur odit minima,"officiis error culpa consequatur modi asperiores et
 dolorum assumenda voluptas et vel qui aut vel rerum
 voluptatum quisquam perspiciatis quia rerum consequatur totam quas
-sequi commodi repudiandae asperiores et saepe a",32,218
+sequi commodi repudiandae asperiores et saepe a",let him flee because he hates the little ones to be born,"the duties of error and fault will result in harsher ways and
+to take pleasure in pains and either who or what things
+Let no one perceive the pleasures, because they are the result of all things
+to pursue the interests of repudiation more harshly and often a",32,218
 7,70,voluptatem laborum magni,"sunt repellendus quae
 est asperiores aut deleniti esse accusamus repellendus quia aut
 quia dolorem unde
-eum tempora esse dolore",24,127
+eum tempora esse dolore",the pleasure of great food,"there are things to be repelled
+we accuse him of being harsher or gentler, to be repelled because either
+because whence the pain
+it is times of pain",24,127
 8,71,et iusto veniam et illum aut fuga,"occaecati a doloribus
 iste saepe consectetur placeat eum voluptate dolorem et
 qui quo quia voluptas
-rerum ut id enim velit est perferendis",33,138
+rerum ut id enim velit est perferendis",and I will come to the right person and he or he will flee,"blinded by pains
+he often pursues pain and pleasure to please him
+who where because pleasure
+for that is what he wants to endure",33,138
 8,72,sint hic doloribus consequatur eos non id,"quam occaecati qui deleniti consectetur
 consequatur aut facere quas exercitationem aliquam hic voluptas
 neque id sunt ut aut accusamus
-sunt consectetur expedita inventore velit",41,176
+sunt consectetur expedita inventore velit","let them suffer here, not that","how blinded shall he be who has been softened
+to achieve or to do what exercise some pleasure here
+nor are they what we accuse
+They are the pursuits of the inventor's will",41,176
 8,73,consequuntur deleniti eos quia temporibus ab aliquid at,"voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo
 aut eum minima consequatur
 tempore cumque quae est et
-et in consequuntur voluptatem voluptates aut",55,171
+et in consequuntur voluptatem voluptates aut",they succeed in softening them because they are at times from something,"the pleasure that is held, and the result of which no one is expedient, because I will explain
+or the slightest consequence to him
+whatever time it is and
+and in consequence pleasure pleasures or",55,171
 8,74,enim unde ratione doloribus quas enim ut sit sapiente,"odit qui et et necessitatibus sint veniam
 mollitia amet doloremque molestiae commodi similique magnam et quam
 blanditiis est itaque
-quo et tenetur ratione occaecati molestiae tempora",53,182
+quo et tenetur ratione occaecati molestiae tempora","for by reason of the pains which he has suffered, that he may be wise","he hates those who are and needs to be pardoned
+the flexibility of the pain and the discomfort of the comfort and the like great and what
+therefore it is flattery
+by which reason the times of dark trouble are held",53,182
 8,75,dignissimos eum dolor ut enim et delectus in,"commodi non non omnis et voluptas sit
 autem aut nobis magnam et sapiente voluptatem
 et laborum repellat qui delectus facilis temporibus
-rerum amet et nemo voluptate expedita adipisci error dolorem",44,196
+rerum amet et nemo voluptate expedita adipisci error dolorem",He was most worthy of suffering as he was chosen,"let it be not all pleasure, but pleasure
+but either great and wise pleasure for us
+and he repulses the hardships of those chosen in easy times
+the love of things, and no one who hastened to the pleasure of obtaining the error of pain",44,196
 8,76,doloremque officiis ad et non perferendis,"ut animi facere
 totam iusto tempore
 molestiae eum aut et dolorem aperiam
-quaerat recusandae totam odio",41,102
+quaerat recusandae totam odio",and pain in carrying out duties and not carrying them,"to make the mind
+all in due time
+I will open him to trouble or pain
+He seeks to refuse all hatred",41,102
 8,77,necessitatibus quasi exercitationem odio,"modi ut in nulla repudiandae dolorum nostrum eos
 aut consequatur omnis
 ut incidunt est omnis iste et quam
-voluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident",40,186
+voluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident",needs such as hate training,"ways that in no way should we reject them from our sorrows
+or all consequences
+as they fall is all this and how
+The wise provide some harsher pleasures for us to reject",40,186
 8,78,quam voluptatibus rerum veritatis,"nobis facilis odit tempore cupiditate quia
 assumenda doloribus rerum qui ea
 illum et qui totam
-aut veniam repellendus",33,117
+aut veniam repellendus",than the pleasures of the things of truth,"it is easy for us to hate the time of desire because
+to bear the pains of the things which
+him and who the whole
+or I will be rejected",33,117
 8,79,pariatur consequatur quia magnam autem omnis non amet,"libero accusantium et et facere incidunt sit dolorem
 non excepturi qui quia sed laudantium
 quisquam molestiae ducimus est
-officiis esse molestiae iste et quos",53,158
+officiis esse molestiae iste et quos",it will be born because everyone will not love the great thing,"free from the accusers and to make them fall into pain
+but those who praise will not be accepted
+no one is a troublemaker
+that he and others were troubled by his duties",53,158
 8,80,labore in ex et explicabo corporis aut quas,"ex quod dolorem ea eum iure qui provident amet
 quia qui facere excepturi et repudiandae
 asperiores molestias provident
-minus incidunt vero fugit rerum sint sunt excepturi provident",43,180
+minus incidunt vero fugit rerum sint sunt excepturi provident",I will work on ex and explain the body or what,"from which he will suffer by the right of those who provide for him
+because those who do will be accepted and rejected
+they provide more severe troubles
+they are less frequent, but they provide for the escape of things that they are",43,180
 9,81,tempora rem veritatis voluptas quo dolores vero,"facere qui nesciunt est voluptatum voluptatem nisi
 sequi eligendi necessitatibus ea at rerum itaque
 harum non ratione velit laboriosam quis consequuntur
-ex officiis minima doloremque voluptas ut aut",47,198
+ex officiis minima doloremque voluptas ut aut","the times are pleasures of the truth, whereas sorrows are truths","what they do not know is the pleasure of pleasures
+to follow the necessity of choosing them, and therefore of things
+no one wants to achieve these laborious reasons
+or the least pain and pleasure from duties",47,198
 9,82,laudantium voluptate suscipit sunt enim enim,"ut libero sit aut totam inventore sunt
 porro sint qui sunt molestiae
 consequatur cupiditate qui iste ducimus adipisci
-dolor enim assumenda soluta laboriosam amet iste delectus hic",44,179
+dolor enim assumenda soluta laboriosam amet iste delectus hic",for they are received with pleasure by those who praise them,"to be free or to find the whole
+let them be those who are trouble
+the result is the desire to obtain that which we lead
+for the burden to be assumed is a laborious task that has been chosen here",44,179
 9,83,odit et voluptates doloribus alias odio et,"est molestiae facilis quis tempora numquam nihil qui
 voluptate sapiente consequatur est qui
 necessitatibus autem aut ipsa aperiam modi dolore numquam
-reprehenderit eius rem quibusdam",42,182
+reprehenderit eius rem quibusdam",he hates both pleasures and pains and hates others,"It's easy trouble who times never nothing who
+He is the wise man who attains pleasure
+But I will never open myself to the needs or to the pain of the kind
+some will criticize his business",42,182
 9,84,optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut,"sint molestiae magni a et quos
 eaque et quasi
 ut rerum debitis similique veniam
-recusandae dignissimos dolor incidunt consequatur odio",76,134
+recusandae dignissimos dolor incidunt consequatur odio","the choice itself, the troubles of the needs, are darkened by the pains of the easy truth, or","let there be great troubles from and whom
+and as it were
+I will come to you for debts and the like
+to refuse the most deserving sufferers to suffer the consequence of hatred",76,134
 9,85,dolore veritatis porro provident adipisci blanditiis et sunt,"similique sed nisi voluptas iusto omnis
 mollitia et quo
 assumenda suscipit officia magnam sint sed tempora
-enim provident pariatur praesentium atque animi amet ratione",60,167
+enim provident pariatur praesentium atque animi amet ratione","with the pain of the truth they further provide for the gain of flattery, and they are","and the like, but unless all pleasure is just
+resilience and where
+The responsibilities to be assumed are great but the times
+for they see to it that the present and the mind are balanced by reason",60,167
 9,86,placeat quia et porro iste,"quasi excepturi consequatur iste autem temporibus sed molestiae beatae
 et quaerat et esse ut
 voluptatem occaecati et vel explicabo autem
-asperiores pariatur deserunt optio",26,171
+asperiores pariatur deserunt optio","please, because this one","as if he were to be saved by the times, but happy trouble
+and seek and be that
+But I will explain the pleasure of being blinded
+the more rugged the desert option",26,171
 9,87,nostrum quis quasi placeat,"eos et molestiae
 nesciunt ut a
 dolores perspiciatis repellendus repellat aliquid
-magnam sint rem ipsum est",26,106
+magnam sint rem ipsum est",one of ours seems to please,"them and troubles
+they do not know how to
+Repulsed by the pains seen, something repels
+It is a very important thing",26,106
 9,88,sapiente omnis fugit eos,"consequatur omnis est praesentium
 ducimus non iste
 neque hic deserunt
-voluptatibus veniam cum et rerum sed",24,106
+voluptatibus veniam cum et rerum sed",every one wisely flees from them,"every consequence is present
+we lead not this one
+nor did they leave here
+I will come with pleasures and things but",24,106
 9,89,sint soluta et vel magnam aut ut sed qui,"repellat aut aperiam totam temporibus autem et
 architecto magnam ut
 consequatur qui cupiditate rerum quia soluta dignissimos nihil iure
-tempore quas est",40,152
+tempore quas est",be loose and either great or as but who,"I will repulse or open the whole of the times and
+as a great architect
+Those who desire things, because they are loosed, deserve nothing by right
+at the time that it is",40,152
 9,90,ad iusto omnis odit dolor voluptatibus,"minus omnis soluta quia
 qui sed adipisci voluptates illum ipsam voluptatem
 eligendi officia ut in
-eos soluta similique molestias praesentium blanditiis",38,151
+eos soluta similique molestias praesentium blanditiis","to the just, every pain hates pleasures","because all the less unsolved
+but those who obtain pleasures, that very pleasure
+to choose the services as in
+having solved them and similar troubles by the flattery of those present",38,151
 10,91,aut amet sed,"libero voluptate eveniet aperiam sed
 sunt placeat suscipit molestias
 similique fugit nam natus
-expedita consequatur consequatur dolores quia eos et placeat",12,155
+expedita consequatur consequatur dolores quia eos et placeat",or it's fun but,"But I will open it with free pleasure
+please take the trouble
+and the like, for he was born
+the result of suffering is expedient because it pleases them",12,155
 10,92,ratione ex tenetur perferendis,"aut et excepturi dicta laudantium sint rerum nihil
 laudantium et at
 a neque minima officia et similique libero et
-commodi voluptate qui",30,135
+commodi voluptate qui",on account of the fact that he is obliged to bear,"or that the words of the praisers should be accepted as nothing
+praisers and
+a nor the smallest duties and the like free and
+who",30,135
 10,93,beatae soluta recusandae,"dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam
 voluptatem quis enim recusandae ut sed sunt
 nostrum est odit totam
-sit error sed sunt eveniet provident qui nulla",24,177
+sit error sed sunt eveniet provident qui nulla",to refuse to be blessed,"We bring pain to some people as a result of what we say or what is laborious
+For who can refuse pleasure as they are?
+he hates the whole of us
+it may be a mistake, but there are those who provide that it will happen",24,177
 10,94,qui qui voluptates illo iste minima,"aspernatur expedita soluta quo ab ut similique
 expedita dolores amet
 sed temporibus distinctio magnam saepe deleniti
-omnis facilis nam ipsum natus sint similique omnis",35,167
+omnis facilis nam ipsum natus sint similique omnis",who has the smallest pleasures of that one,"It is asperated by the expedient and the like
+ease the pains
+but the great distinction of times was often softened
+for every one is born easy, and all are like him",35,167
 10,95,id minus libero illum nam ad officiis,"earum voluptatem facere provident blanditiis velit laboriosam
 pariatur accusamus odio saepe
 cumque dolor qui a dicta ab doloribus consequatur omnis
-corporis cupiditate eaque assumenda ad nesciunt",37,195
+corporis cupiditate eaque assumenda ad nesciunt",that freed him less for his duties,"They provide for their pleasure to make the caress of the laborious
+we often accuse him of hatred
+and all the sorrows that are said to result from sorrows
+they do not know what to do with physical desire",37,195
 10,96,quaerat velit veniam amet cupiditate aut numquam ut sequi,"in non odio excepturi sint eum
 labore voluptates vitae quia qui et
 inventore itaque rerum
-veniam non exercitationem delectus aut",57,128
+veniam non exercitationem delectus aut",He wants to seek forgiveness with eagerness or never to follow,"they are not going to receive him with hatred
+with labor the pleasures of life because who and
+therefore the inventor of things
+I'm sorry I didn't choose the exercise either",57,128
 10,97,quas fugiat ut perspiciatis vero provident,"eum non blanditiis soluta porro quibusdam voluptas
 vel voluptatem qui placeat dolores qui velit aut
 vel inventore aut cumque culpa explicabo aliquid at
-perspiciatis est et voluptatem dignissimos dolor itaque sit nam",42,215
+perspiciatis est et voluptatem dignissimos dolor itaque sit nam",but they provide that they may be seen to flee,"I did not release him with flattery, but some pleasure
+or the pleasure that pleaseth the pains that he wills, or
+either by finding out or by any fault I will explain something
+For therefore pain is to be understood, and pleasure is more worthy of pleasure",42,215
 10,98,laboriosam dolor voluptates,"doloremque ex facilis sit sint culpa
 soluta assumenda eligendi non ut eius
 sequi ducimus vel quasi
-veritatis est dolores",27,120
+veritatis est dolores",the pleasures of laborious pain,"and let the pain be of easy fault
+not to be taken for granted as his choice
+we lead to follow or as it were
+it is the pains of the truth",27,120
 10,99,temporibus sit alias delectus eligendi possimus magni,"quo deleniti praesentium dicta non quod
 aut est molestias
 molestias et officia quis nihil
-itaque dolorem quia",53,109
+itaque dolorem quia",at other times we may be able to choose a great selection,"with which the words of those present were softened, not that
+or there is trouble
+troubles and responsibilities who nothing
+therefore pain because",53,109
 10,100,at nam consequatur ea labore ea harum,"cupiditate quo est a modi nesciunt soluta
 ipsa voluptas error itaque dicta in
 autem qui minus magnam et distinctio eum
-accusamus ratione error aut",37,146
+accusamus ratione error aut",but in fact it will be achieved by the labor of these people,"by the desire of which it is released by ways they do not know
+The pleasure itself is therefore said in error
+but he who is less great and distinguished him
+We accuse him of error or",37,146
