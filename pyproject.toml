@@ -23,6 +23,7 @@ dependencies = [
     # "wordcloud",       # WHY: Quick visual exploration of word frequencies in text corpora.
     # "spacy", # WHY: Industrial-strength NLP library for tokenization and linguistic analysis.
     "deep-translator>=1.11.4",
+    "dotenv>=0.9.9",
 ]
 
 [project.optional-dependencies]

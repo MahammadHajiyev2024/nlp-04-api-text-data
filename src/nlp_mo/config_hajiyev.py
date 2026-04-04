@@ -25,15 +25,17 @@ Then edit your copied Python file to change:
 - the HTTP Request Headers (to show your app name in the user-agent header)
 - customize your output file name.
 """
-
+import os
+from dotenv import load_dotenv
 from pathlib import Path
 
 # ============================================================
 # API CONFIGURATION
 # ============================================================
-
+load_dotenv()
+MY_API_KEY: str = os.getenv("MY_API_KEY", "")  # TODO: In your custom app, add your API key here if required.
 # TODO: In your custom app, change the URL to work with a different API that returns JSON data.
-API_URL: str = "https://jsonplaceholder.typicode.com/posts"
+API_URL: str = f"https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey={MY_API_KEY}"
 
 # TODO: In your custom app, change the header user-agent value
 # to something that represents your app or project.

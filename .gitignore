@@ -108,3 +108,6 @@ dist/
 
 # WHY: Notebook checkpoint state is generated.
 .ipynb_checkpoints/
+
+# using dotenv to manage secrets and environment variables, so ignore .env files
+.env

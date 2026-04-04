@@ -295,3 +295,394 @@ shape: (5, 6)
 2026-04-03 14:43:45 | INFO | CI | ========================
 2026-04-03 14:43:45 | INFO | CI | Pipeline executed successfully!
 2026-04-03 14:43:45 | INFO | CI | ========================
+2026-04-04 14:41:10 | INFO | CI | === RUN START ===
+2026-04-04 14:41:10 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 14:41:10 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 14:41:10 | INFO | CI | python=3.14.3
+2026-04-04 14:41:10 | INFO | CI | os=Windows 11
+2026-04-04 14:41:10 | INFO | CI | shell=powershell
+2026-04-04 14:41:10 | INFO | CI | cwd=.
+2026-04-04 14:41:10 | INFO | CI | github_actions=False
+2026-04-04 14:41:10 | INFO | CI | START PIPELINE
+2026-04-04 14:41:10 | INFO | CI | ROOT_PATH = .
+2026-04-04 14:41:10 | INFO | CI | DATA_PATH = data
+2026-04-04 14:41:10 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 14:41:10 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 14:41:10 | INFO | CI | ========================
+2026-04-04 14:41:10 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 14:41:10 | INFO | CI | ========================
+2026-04-04 14:41:11 | INFO | CI | SOURCE PATH = https://jsonplaceholder.typicode.com/posts
+2026-04-04 14:41:11 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 14:41:11 | INFO | CI | ========================
+2026-04-04 14:41:11 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 14:41:11 | INFO | CI | ========================
+2026-04-04 14:41:11 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 14:41:11 | INFO | CI | Top-level type: list
+2026-04-04 14:41:11 | INFO | CI | Keys in first record: ['userId', 'id', 'title', 'body']
+2026-04-04 14:41:11 | INFO | CI | Field types:
+2026-04-04 14:41:11 | INFO | CI | userId: int
+2026-04-04 14:41:11 | INFO | CI | id: int
+2026-04-04 14:41:11 | INFO | CI | title: str
+2026-04-04 14:41:11 | INFO | CI | body: str
+2026-04-04 14:41:11 | INFO | CI | Validation passed.
+2026-04-04 14:41:11 | INFO | CI | Sink: validated JSON object
+2026-04-04 14:41:11 | INFO | CI | Starting translation...
+2026-04-04 14:43:05 | INFO | CI | Transformation and Translation complete.
+2026-04-04 14:43:05 | INFO | CI | ========================
+2026-04-04 14:43:05 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-04 14:43:05 | INFO | CI | ========================
+2026-04-04 14:43:05 | INFO | CI | SINK PATH = data\processed\hajiyev_processed.csv
+2026-04-04 14:43:05 | INFO | CI | ========================
+2026-04-04 14:43:05 | INFO | CI | Pipeline executed successfully!
+2026-04-04 14:43:05 | INFO | CI | ========================
+2026-04-04 14:48:01 | INFO | CI | === RUN START ===
+2026-04-04 14:48:01 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 14:48:01 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 14:48:01 | INFO | CI | python=3.14.3
+2026-04-04 14:48:01 | INFO | CI | os=Windows 11
+2026-04-04 14:48:01 | INFO | CI | shell=powershell
+2026-04-04 14:48:01 | INFO | CI | cwd=.
+2026-04-04 14:48:01 | INFO | CI | github_actions=False
+2026-04-04 14:48:01 | INFO | CI | START PIPELINE
+2026-04-04 14:48:01 | INFO | CI | ROOT_PATH = .
+2026-04-04 14:48:01 | INFO | CI | DATA_PATH = data
+2026-04-04 14:48:01 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 14:48:01 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 14:48:01 | INFO | CI | ========================
+2026-04-04 14:48:01 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 14:48:01 | INFO | CI | ========================
+2026-04-04 14:50:08 | INFO | CI | === RUN START ===
+2026-04-04 14:50:08 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 14:50:08 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 14:50:08 | INFO | CI | python=3.14.3
+2026-04-04 14:50:08 | INFO | CI | os=Windows 11
+2026-04-04 14:50:08 | INFO | CI | shell=powershell
+2026-04-04 14:50:08 | INFO | CI | cwd=.
+2026-04-04 14:50:08 | INFO | CI | github_actions=False
+2026-04-04 14:50:08 | INFO | CI | START PIPELINE
+2026-04-04 14:50:08 | INFO | CI | ROOT_PATH = .
+2026-04-04 14:50:08 | INFO | CI | DATA_PATH = data
+2026-04-04 14:50:08 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 14:50:08 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 14:50:08 | INFO | CI | ========================
+2026-04-04 14:50:08 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 14:50:08 | INFO | CI | ========================
+2026-04-04 14:55:11 | INFO | CI | === RUN START ===
+2026-04-04 14:55:11 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 14:55:11 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 14:55:11 | INFO | CI | python=3.14.3
+2026-04-04 14:55:11 | INFO | CI | os=Windows 11
+2026-04-04 14:55:11 | INFO | CI | shell=powershell
+2026-04-04 14:55:11 | INFO | CI | cwd=.
+2026-04-04 14:55:11 | INFO | CI | github_actions=False
+2026-04-04 14:55:11 | INFO | CI | START PIPELINE
+2026-04-04 14:55:11 | INFO | CI | ROOT_PATH = .
+2026-04-04 14:55:11 | INFO | CI | DATA_PATH = data
+2026-04-04 14:55:11 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 14:55:11 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 14:55:11 | INFO | CI | ========================
+2026-04-04 14:55:11 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 14:55:11 | INFO | CI | ========================
+2026-04-04 14:55:12 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 14:55:12 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 14:55:12 | INFO | CI | ========================
+2026-04-04 14:55:12 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 14:55:12 | INFO | CI | ========================
+2026-04-04 14:55:12 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 14:55:12 | INFO | CI | Top-level type: dict
+2026-04-04 14:57:49 | INFO | CI | === RUN START ===
+2026-04-04 14:57:49 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 14:57:49 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 14:57:49 | INFO | CI | python=3.14.3
+2026-04-04 14:57:49 | INFO | CI | os=Windows 11
+2026-04-04 14:57:49 | INFO | CI | shell=powershell
+2026-04-04 14:57:49 | INFO | CI | cwd=.
+2026-04-04 14:57:49 | INFO | CI | github_actions=False
+2026-04-04 14:57:49 | INFO | CI | START PIPELINE
+2026-04-04 14:57:49 | INFO | CI | ROOT_PATH = .
+2026-04-04 14:57:49 | INFO | CI | DATA_PATH = data
+2026-04-04 14:57:49 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 14:57:49 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 14:57:49 | INFO | CI | ========================
+2026-04-04 14:57:49 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 14:57:49 | INFO | CI | ========================
+2026-04-04 14:57:49 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 14:57:49 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 14:57:49 | INFO | CI | ========================
+2026-04-04 14:57:49 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 14:57:49 | INFO | CI | ========================
+2026-04-04 14:57:49 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 14:57:49 | INFO | CI | Top-level type: dict
+2026-04-04 15:03:47 | INFO | CI | === RUN START ===
+2026-04-04 15:03:47 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 15:03:47 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 15:03:47 | INFO | CI | python=3.14.3
+2026-04-04 15:03:47 | INFO | CI | os=Windows 11
+2026-04-04 15:03:47 | INFO | CI | shell=powershell
+2026-04-04 15:03:47 | INFO | CI | cwd=.
+2026-04-04 15:03:47 | INFO | CI | github_actions=False
+2026-04-04 15:03:47 | INFO | CI | START PIPELINE
+2026-04-04 15:03:47 | INFO | CI | ROOT_PATH = .
+2026-04-04 15:03:47 | INFO | CI | DATA_PATH = data
+2026-04-04 15:03:47 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 15:03:47 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 15:03:47 | INFO | CI | ========================
+2026-04-04 15:03:47 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 15:03:47 | INFO | CI | ========================
+2026-04-04 15:03:47 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 15:03:47 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 15:03:47 | INFO | CI | ========================
+2026-04-04 15:03:47 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 15:03:47 | INFO | CI | ========================
+2026-04-04 15:03:47 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 15:03:47 | INFO | CI | Top-level type: dict
+2026-04-04 15:19:53 | INFO | CI | === RUN START ===
+2026-04-04 15:19:53 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 15:19:53 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 15:19:53 | INFO | CI | python=3.14.3
+2026-04-04 15:19:53 | INFO | CI | os=Windows 11
+2026-04-04 15:19:53 | INFO | CI | shell=powershell
+2026-04-04 15:19:53 | INFO | CI | cwd=.
+2026-04-04 15:19:53 | INFO | CI | github_actions=False
+2026-04-04 15:19:53 | INFO | CI | START PIPELINE
+2026-04-04 15:19:53 | INFO | CI | ROOT_PATH = .
+2026-04-04 15:19:53 | INFO | CI | DATA_PATH = data
+2026-04-04 15:19:53 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 15:19:53 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:19:53 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:19:53 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 15:19:53 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:19:53 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:19:53 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 15:19:53 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 15:19:53 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:19:53 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 15:19:53 | INFO | CI | ========================
+2026-04-04 15:24:49 | INFO | CI | === RUN START ===
+2026-04-04 15:24:49 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 15:24:49 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 15:24:49 | INFO | CI | python=3.14.3
+2026-04-04 15:24:49 | INFO | CI | os=Windows 11
+2026-04-04 15:24:49 | INFO | CI | shell=powershell
+2026-04-04 15:24:49 | INFO | CI | cwd=.
+2026-04-04 15:24:49 | INFO | CI | github_actions=False
+2026-04-04 15:24:49 | INFO | CI | START PIPELINE
+2026-04-04 15:24:49 | INFO | CI | ROOT_PATH = .
+2026-04-04 15:24:49 | INFO | CI | DATA_PATH = data
+2026-04-04 15:24:49 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 15:24:49 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 15:24:49 | INFO | CI | ========================
+2026-04-04 15:24:49 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 15:24:49 | INFO | CI | ========================
+2026-04-04 15:24:50 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 15:24:50 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 15:24:50 | INFO | CI | ========================
+2026-04-04 15:24:50 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 15:24:50 | INFO | CI | ========================
+2026-04-04 15:24:50 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 15:24:50 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 15:24:50 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 15:24:50 | INFO | CI | ========================
+2026-04-04 15:24:50 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 15:24:50 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | === RUN START ===
+2026-04-04 15:26:53 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 15:26:53 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 15:26:53 | INFO | CI | python=3.14.3
+2026-04-04 15:26:53 | INFO | CI | os=Windows 11
+2026-04-04 15:26:53 | INFO | CI | shell=powershell
+2026-04-04 15:26:53 | INFO | CI | cwd=.
+2026-04-04 15:26:53 | INFO | CI | github_actions=False
+2026-04-04 15:26:53 | INFO | CI | START PIPELINE
+2026-04-04 15:26:53 | INFO | CI | ROOT_PATH = .
+2026-04-04 15:26:53 | INFO | CI | DATA_PATH = data
+2026-04-04 15:26:53 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 15:26:53 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 15:26:53 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 15:26:53 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 15:26:53 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | Transformation complete.
+2026-04-04 15:26:53 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌────────────┬────────┬─────────┬─────────┬────────┬───────────┐
+│ date       ┆ open   ┆ high    ┆ low     ┆ close  ┆ volume    │
+│ ---        ┆ ---    ┆ ---     ┆ ---     ┆ ---    ┆ ---       │
+│ str        ┆ f64    ┆ f64     ┆ f64     ┆ f64    ┆ i64       │
+╞════════════╪════════╪═════════╪═════════╪════════╪═══════════╡
+│ 2026-04-02 ┆ 640.11 ┆ 658.52  ┆ 629.28  ┆ 655.83 ┆ 418010138 │
+│ 2026-03-27 ┆ 658.07 ┆ 662.615 ┆ 633.105 ┆ 634.09 ┆ 522057740 │
+│ 2026-03-20 ┆ 668.38 ┆ 674.44  ┆ 644.72  ┆ 648.57 ┆ 526103811 │
+│ 2026-03-13 ┆ 666.39 ┆ 683.36  ┆ 661.36  ┆ 662.29 ┆ 458697186 │
+│ 2026-03-06 ┆ 678.7  ┆ 688.62  ┆ 669.66  ┆ 672.38 ┆ 478955970 │
+└────────────┴────────┴─────────┴─────────┴────────┴───────────┘
+2026-04-04 15:26:53 | INFO | CI | Sink: Polars DataFrame created
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | SINK PATH = data\processed\hajiyev_processed.csv
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 15:26:53 | INFO | CI | Pipeline executed successfully!
+2026-04-04 15:26:53 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | === RUN START ===
+2026-04-04 16:56:23 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 16:56:23 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 16:56:23 | INFO | CI | python=3.14.3
+2026-04-04 16:56:23 | INFO | CI | os=Windows 11
+2026-04-04 16:56:23 | INFO | CI | shell=powershell
+2026-04-04 16:56:23 | INFO | CI | cwd=.
+2026-04-04 16:56:23 | INFO | CI | github_actions=False
+2026-04-04 16:56:23 | INFO | CI | START PIPELINE
+2026-04-04 16:56:23 | INFO | CI | ROOT_PATH = .
+2026-04-04 16:56:23 | INFO | CI | DATA_PATH = data
+2026-04-04 16:56:23 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 16:56:23 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=None
+2026-04-04 16:56:23 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 16:56:23 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 16:56:23 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | Transformation complete.
+2026-04-04 16:56:23 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌────────────┬────────┬─────────┬─────────┬────────┬───────────┐
+│ date       ┆ open   ┆ high    ┆ low     ┆ close  ┆ volume    │
+│ ---        ┆ ---    ┆ ---     ┆ ---     ┆ ---    ┆ ---       │
+│ str        ┆ f64    ┆ f64     ┆ f64     ┆ f64    ┆ i64       │
+╞════════════╪════════╪═════════╪═════════╪════════╪═══════════╡
+│ 2026-04-02 ┆ 640.11 ┆ 658.52  ┆ 629.28  ┆ 655.83 ┆ 418010138 │
+│ 2026-03-27 ┆ 658.07 ┆ 662.615 ┆ 633.105 ┆ 634.09 ┆ 522057740 │
+│ 2026-03-20 ┆ 668.38 ┆ 674.44  ┆ 644.72  ┆ 648.57 ┆ 526103811 │
+│ 2026-03-13 ┆ 666.39 ┆ 683.36  ┆ 661.36  ┆ 662.29 ┆ 458697186 │
+│ 2026-03-06 ┆ 678.7  ┆ 688.62  ┆ 669.66  ┆ 672.38 ┆ 478955970 │
+└────────────┴────────┴─────────┴─────────┴────────┴───────────┘
+2026-04-04 16:56:23 | INFO | CI | Sink: Polars DataFrame created
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | SINK PATH = data\processed\hajiyev_processed.csv
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 16:56:23 | INFO | CI | Pipeline executed successfully!
+2026-04-04 16:56:23 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | === RUN START ===
+2026-04-04 17:00:56 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 17:00:56 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 17:00:56 | INFO | CI | python=3.14.3
+2026-04-04 17:00:56 | INFO | CI | os=Windows 11
+2026-04-04 17:00:56 | INFO | CI | shell=powershell
+2026-04-04 17:00:56 | INFO | CI | cwd=.
+2026-04-04 17:00:56 | INFO | CI | github_actions=False
+2026-04-04 17:00:56 | INFO | CI | START PIPELINE
+2026-04-04 17:00:56 | INFO | CI | ROOT_PATH = .
+2026-04-04 17:00:56 | INFO | CI | DATA_PATH = data
+2026-04-04 17:00:56 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 17:00:56 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 17:00:56 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 17:00:56 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 17:00:56 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | Transformation complete.
+2026-04-04 17:00:56 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌────────────┬────────┬─────────┬─────────┬────────┬───────────┐
+│ date       ┆ open   ┆ high    ┆ low     ┆ close  ┆ volume    │
+│ ---        ┆ ---    ┆ ---     ┆ ---     ┆ ---    ┆ ---       │
+│ str        ┆ f64    ┆ f64     ┆ f64     ┆ f64    ┆ i64       │
+╞════════════╪════════╪═════════╪═════════╪════════╪═══════════╡
+│ 2026-04-02 ┆ 640.11 ┆ 658.52  ┆ 629.28  ┆ 655.83 ┆ 418010138 │
+│ 2026-03-27 ┆ 658.07 ┆ 662.615 ┆ 633.105 ┆ 634.09 ┆ 522057740 │
+│ 2026-03-20 ┆ 668.38 ┆ 674.44  ┆ 644.72  ┆ 648.57 ┆ 526103811 │
+│ 2026-03-13 ┆ 666.39 ┆ 683.36  ┆ 661.36  ┆ 662.29 ┆ 458697186 │
+│ 2026-03-06 ┆ 678.7  ┆ 688.62  ┆ 669.66  ┆ 672.38 ┆ 478955970 │
+└────────────┴────────┴─────────┴─────────┴────────┴───────────┘
+2026-04-04 17:00:56 | INFO | CI | Sink: Polars DataFrame created
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | SINK PATH = data\processed\hajiyev_processed.csv
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:00:56 | INFO | CI | Pipeline executed successfully!
+2026-04-04 17:00:56 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | === RUN START ===
+2026-04-04 17:02:04 | INFO | CI | project=MODULE 4: EVTL PIPELINE
+2026-04-04 17:02:04 | INFO | CI | repo_dir=nlp-04-api-text-data
+2026-04-04 17:02:04 | INFO | CI | python=3.14.3
+2026-04-04 17:02:04 | INFO | CI | os=Windows 11
+2026-04-04 17:02:04 | INFO | CI | shell=powershell
+2026-04-04 17:02:04 | INFO | CI | cwd=.
+2026-04-04 17:02:04 | INFO | CI | github_actions=False
+2026-04-04 17:02:04 | INFO | CI | START PIPELINE
+2026-04-04 17:02:04 | INFO | CI | ROOT_PATH = .
+2026-04-04 17:02:04 | INFO | CI | DATA_PATH = data
+2026-04-04 17:02:04 | INFO | CI | RAW_PATH = data\raw
+2026-04-04 17:02:04 | INFO | CI | PROCESSED_PATH = data\processed
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | STAGE 01: EXTRACT starting... 
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | SOURCE PATH = https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=J869DWTHQ3Y612XJ
+2026-04-04 17:02:04 | INFO | CI | SINK PATH = data\raw\hajiyev_raw.json
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | STAGE 02: VALIDATE starting...
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | JSON STRUCTURE INSPECTION:
+2026-04-04 17:02:04 | INFO | CI | Processing as an Alpha Vantage dictionary (Hajiyev Case).
+2026-04-04 17:02:04 | INFO | CI | Successfully converted dictionary into a list of 1378 records.
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | STAGE 03: TRANSFORM starting...
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | Transformation complete.
+2026-04-04 17:02:04 | INFO | CI | DataFrame preview:
+shape: (5, 6)
+┌────────────┬────────┬─────────┬─────────┬────────┬───────────┐
+│ date       ┆ open   ┆ high    ┆ low     ┆ close  ┆ volume    │
+│ ---        ┆ ---    ┆ ---     ┆ ---     ┆ ---    ┆ ---       │
+│ str        ┆ f64    ┆ f64     ┆ f64     ┆ f64    ┆ i64       │
+╞════════════╪════════╪═════════╪═════════╪════════╪═══════════╡
+│ 2026-04-02 ┆ 640.11 ┆ 658.52  ┆ 629.28  ┆ 655.83 ┆ 418010138 │
+│ 2026-03-27 ┆ 658.07 ┆ 662.615 ┆ 633.105 ┆ 634.09 ┆ 522057740 │
+│ 2026-03-20 ┆ 668.38 ┆ 674.44  ┆ 644.72  ┆ 648.57 ┆ 526103811 │
+│ 2026-03-13 ┆ 666.39 ┆ 683.36  ┆ 661.36  ┆ 662.29 ┆ 458697186 │
+│ 2026-03-06 ┆ 678.7  ┆ 688.62  ┆ 669.66  ┆ 672.38 ┆ 478955970 │
+└────────────┴────────┴─────────┴─────────┴────────┴───────────┘
+2026-04-04 17:02:04 | INFO | CI | Sink: Polars DataFrame created
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | STAGE 04: LOAD starting...
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | SINK PATH = data\processed\hajiyev_processed.csv
+2026-04-04 17:02:04 | INFO | CI | ========================
+2026-04-04 17:02:04 | INFO | CI | Pipeline executed successfully!
+2026-04-04 17:02:04 | INFO | CI | ========================

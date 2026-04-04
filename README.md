@@ -38,6 +38,72 @@ In EVTL, each stage has a source, a process, and a sink.
 
 This project illustrates how to **work with real API data and understand its structure before analysis**.
 
+## S&P 500 Market Analysis Pipeline
+
+![Alt Text](SPY_ETF_Index_Chart.png)
+
+### Project Overview
+This project is an automated **ETL (Extract, Transform, Load) pipeline** designed to fetch historical stock market data for the S&P 500 (via the SPY ETF) and prepare it for advanced financial visualization. The pipeline transitions from static JSON processing to a dynamic API-driven model, handling real-world data complexities like nested structures and rate limiting.
+
+###  Technical Stack
+* **Language:** Python 3.12+
+* **Data Library:** Polars (High-performance DataFrame library)
+* **Source:** Alpha Vantage API (Time Series Weekly)
+* **Visualization:** Power BI Desktop
+
+---
+
+###  Pipeline Stages
+
+####  1. Extract (`stage01_extract_hajiyev.py`)
+* **Source:** Connects to the Alpha Vantage `TIME_SERIES_WEEKLY` endpoint.
+* **Mechanism:** Uses the `requests` library with a custom `User-Agent` to fetch 25+ years of historical data.
+* **Output:** Saves a raw JSON "snapshot" to `data/raw/hajiyev_raw.json`.
+
+####  2. Validate (`stage02_validate_hajiyev.py`)
+* **Logic:** Implemented a **polymorphic validator** that handles both standard JSON lists and the nested Dictionary structure returned by Alpha Vantage.
+* **Data Normalization:** Converts the nested "Weekly Time Series" object into a flat list of records.
+* **Error Handling:** Detects API "Notes" (rate limits) and "Error Messages" before passing data to the transform stage.
+
+####  3. Transform (`stage03_transform_hajiyev.py`)
+* **Key Mapping:** Resolved `KeyError` issues by explicitly mapping Alpha Vantage's numbered keys (e.g., `1. open`, `5. volume`) to clean, database-ready column names.
+* **Type Casting:** Converted string-based API values into `Float64` and `Int64` types using Polars for mathematical accuracy.
+* **Derived Fields:** Created derived metrics such as `title_length` and `body_length` to support textual density analysis.
+
+---
+
+###  Technical Modifications & Insights
+
+####  Modifications Made:
+* **Logic Change:** Updated the validation stage to "reach inside" a JSON Dictionary to extract the `Weekly Time Series` key.
+* **Schema Adjustment:** Renamed raw API keys to standardized headers (`open`, `high`, `low`, `close`, `volume`).
+* **API Integration:** Swapped static files for a live `SPY` ETF data feed to bypass "Premium" API restrictions while maintaining data integrity.
+
+####  Key Insights:
+* **Nested vs. Flat:** Real-world financial data is rarely "flat." Understanding how to iterate through dictionary keys to create a list is essential for scalable ETL.
+* **API Resilience:** Learned that Alpha Vantage returns a `200 OK` status even when a limit is hit, requiring internal JSON inspection to catch errors.
+* **Visualization Scaling:** Discovered that summing stock prices over time creates misleading data; using **Averages** and **Max/Min** is required for accurate yearly trend analysis.
+
+---
+
+###  How to Run
+1.  Add your Alpha Vantage API Key to `config_hajiyev.py`.
+2.  Run the module:
+    ```bash
+    uv run python nlp_mo.pipeline_api_json_hajiyev
+    ```
+3.  Open the `processed/hajiyev_processed.csv` in Power BI.
+
+---
+
+###  Visualizations
+The final output includes a **Price Trend Analysis** in Power BI, utilizing:
+* **X-Axis:** Continuous Timeline (1999–2026).
+* **Y-Axis:** Auto-scaled Price (USD) to avoid clipping modern rally data.
+* **Metrics:** Max High, Min Low, and Average Close per year to represent market volatility accurately.
+
+
+
 ## Key Files
 
 You'll work with these files as you update authorship and experiment:
@@ -141,7 +207,7 @@ git push -u origin main
 
 ## Example Artifact (Output)
 
-
+![alt text](image.png)
 
 ```text
 START PIPELINE

@@ -49,10 +49,10 @@ from nlp_mo.config_hajiyev import (
     RAW_PATH,
     ROOT_PATH,
 )
-from nlp.stage01_extract import run_extract
-from nlp.stage02_validate_case import run_validate
-from nlp.stage03_transform_case import run_transform
-from nlp.stage04_load import run_load
+from nlp_mo.stage01_extract_hajiyev import run_extract
+from nlp_mo.stage02_validate_hajiyev import run_validate
+from nlp_mo.stage03_transform_hajiyev import run_transform
+from nlp_mo.stage04_load_hajiyev import run_load
 
 # ============================================================
 # Section 2. Configure Logging
